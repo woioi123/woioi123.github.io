@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RTSP Stream Player</title>
+</head>
+<body>
+    <h2>RTSP Stream Player</h2>
+    <div style="width: 640px; height: 480px;">
+        <embed
+            type="application/x-vlc-plugin"
+            pluginspage="http://www.videolan.org"
+            version="VideoLAN.VLCPlugin.2"
+            target="rtsp://JuanSandeepSelvan:JuanSandeepSelvan@121.217.66.83:554/stream1"
+        ></embed>
+    </div>
+</body>
+</html>
